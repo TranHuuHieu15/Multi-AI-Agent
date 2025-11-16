@@ -1,0 +1,180 @@
+2025-11-16 17:29:55 | INFO     | __main__:main | ============================================================
+2025-11-16 17:29:55 | INFO     | __main__:main | 🎯 TRAVEL COORDINATOR STARTING
+2025-11-16 17:29:55 | INFO     | __main__:main | ============================================================
+2025-11-16 17:29:59 | INFO     | agents.coordinator.orchestrator:__init__ | ✅ Orchestrator initialized
+2025-11-16 17:29:59 | INFO     | agents.coordinator.orchestrator:__init__ |    Weather Agent: http://localhost:5001
+2025-11-16 17:29:59 | INFO     | agents.coordinator.orchestrator:__init__ |    Planning Agent: http://localhost:5002
+2025-11-16 17:29:59 | INFO     | __main__:main | 
+📋 Planning trips for: Da Nang, Hanoi, Ho Chi Minh
+2025-11-16 17:29:59 | INFO     | agents.coordinator.orchestrator:plan_trip | ============================================================
+2025-11-16 17:29:59 | INFO     | agents.coordinator.orchestrator:plan_trip | 🚀 Starting trip planning for: Da Nang
+2025-11-16 17:29:59 | INFO     | agents.coordinator.orchestrator:plan_trip | ============================================================
+2025-11-16 17:29:59 | INFO     | agents.coordinator.orchestrator:plan_trip | 
+📍 STEP 1: Querying Weather Agent...
+2025-11-16 17:30:08 | ERROR    | agents.coordinator.orchestrator:_get_weather | Failed to get weather after retries: object Message can't be used in 'await' expression
+2025-11-16 17:30:08 | ERROR    | agents.coordinator.orchestrator:plan_trip | ❌ Error in orchestration: object Message can't be used in 'await' expression
+2025-11-16 17:30:08 | INFO     | __main__:main | 
+────────────────────────────────────────────────────────────
+
+2025-11-16 17:30:10 | INFO     | agents.coordinator.orchestrator:plan_trip | ============================================================
+2025-11-16 17:30:10 | INFO     | agents.coordinator.orchestrator:plan_trip | 🚀 Starting trip planning for: Hanoi
+2025-11-16 17:30:10 | INFO     | agents.coordinator.orchestrator:plan_trip | ============================================================
+2025-11-16 17:30:10 | INFO     | agents.coordinator.orchestrator:plan_trip | 
+📍 STEP 1: Querying Weather Agent...
+2025-11-16 17:30:19 | ERROR    | agents.coordinator.orchestrator:_get_weather | Failed to get weather after retries: object Message can't be used in 'await' expression
+2025-11-16 17:30:19 | ERROR    | agents.coordinator.orchestrator:plan_trip | ❌ Error in orchestration: object Message can't be used in 'await' expression
+2025-11-16 17:30:19 | INFO     | __main__:main | 
+────────────────────────────────────────────────────────────
+
+2025-11-16 17:30:21 | INFO     | agents.coordinator.orchestrator:plan_trip | ============================================================
+2025-11-16 17:30:21 | INFO     | agents.coordinator.orchestrator:plan_trip | 🚀 Starting trip planning for: Ho Chi Minh
+2025-11-16 17:30:21 | INFO     | agents.coordinator.orchestrator:plan_trip | ============================================================
+2025-11-16 17:30:21 | INFO     | agents.coordinator.orchestrator:plan_trip | 
+📍 STEP 1: Querying Weather Agent...
+2025-11-16 17:30:30 | ERROR    | agents.coordinator.orchestrator:_get_weather | Failed to get weather after retries: object Message can't be used in 'await' expression
+2025-11-16 17:30:30 | ERROR    | agents.coordinator.orchestrator:plan_trip | ❌ Error in orchestration: object Message can't be used in 'await' expression
+2025-11-16 17:30:30 | INFO     | __main__:main | 
+============================================================
+2025-11-16 17:30:30 | INFO     | __main__:main | ✅ ALL TRIPS PLANNED
+2025-11-16 17:30:30 | INFO     | __main__:main | ============================================================
+2025-11-16 17:32:04 | INFO     | __main__:main | ============================================================
+2025-11-16 17:32:04 | INFO     | __main__:main | 🎯 TRAVEL COORDINATOR STARTING
+2025-11-16 17:32:04 | INFO     | __main__:main | ============================================================
+2025-11-16 17:32:08 | INFO     | agents.coordinator.orchestrator:__init__ | ✅ Orchestrator initialized
+2025-11-16 17:32:08 | INFO     | agents.coordinator.orchestrator:__init__ |    Weather Agent: http://localhost:5001
+2025-11-16 17:32:08 | INFO     | agents.coordinator.orchestrator:__init__ |    Planning Agent: http://localhost:5002
+2025-11-16 17:32:08 | INFO     | __main__:main | 
+📋 Planning trips for: Da Nang, Hanoi, Ho Chi Minh
+2025-11-16 17:32:08 | INFO     | agents.coordinator.orchestrator:plan_trip | ============================================================
+2025-11-16 17:32:08 | INFO     | agents.coordinator.orchestrator:plan_trip | 🚀 Starting trip planning for: Da Nang
+2025-11-16 17:32:08 | INFO     | agents.coordinator.orchestrator:plan_trip | ============================================================
+2025-11-16 17:32:08 | INFO     | agents.coordinator.orchestrator:plan_trip | 
+📍 STEP 1: Querying Weather Agent...
+2025-11-16 17:32:10 | INFO     | agents.coordinator.orchestrator:plan_trip |    ✅ Weather: <coroutine object WeatherAgent.handle_message at 0x00000253F623EC20>
+2025-11-16 17:32:10 | INFO     | agents.coordinator.orchestrator:plan_trip | 
+📍 STEP 2: Querying Planning Agent...
+2025-11-16 17:32:12 | INFO     | agents.coordinator.orchestrator:plan_trip |    ✅ Activities: 0 suggestions
+2025-11-16 17:32:12 | INFO     | agents.coordinator.orchestrator:plan_trip | 
+✅ Trip planning completed successfully!
+2025-11-16 17:32:12 | INFO     | __main__:main | 
+────────────────────────────────────────────────────────────
+
+2025-11-16 17:32:14 | INFO     | agents.coordinator.orchestrator:plan_trip | ============================================================
+2025-11-16 17:32:14 | INFO     | agents.coordinator.orchestrator:plan_trip | 🚀 Starting trip planning for: Hanoi
+2025-11-16 17:32:14 | INFO     | agents.coordinator.orchestrator:plan_trip | ============================================================
+2025-11-16 17:32:14 | INFO     | agents.coordinator.orchestrator:plan_trip | 
+📍 STEP 1: Querying Weather Agent...
+2025-11-16 17:32:16 | INFO     | agents.coordinator.orchestrator:plan_trip |    ✅ Weather: <coroutine object WeatherAgent.handle_message at 0x00000253F623F0A0>
+2025-11-16 17:32:16 | INFO     | agents.coordinator.orchestrator:plan_trip | 
+📍 STEP 2: Querying Planning Agent...
+2025-11-16 17:32:18 | INFO     | agents.coordinator.orchestrator:plan_trip |    ✅ Activities: 0 suggestions
+2025-11-16 17:32:18 | INFO     | agents.coordinator.orchestrator:plan_trip | 
+✅ Trip planning completed successfully!
+2025-11-16 17:32:18 | INFO     | __main__:main | 
+────────────────────────────────────────────────────────────
+
+2025-11-16 17:32:20 | INFO     | agents.coordinator.orchestrator:plan_trip | ============================================================
+2025-11-16 17:32:20 | INFO     | agents.coordinator.orchestrator:plan_trip | 🚀 Starting trip planning for: Ho Chi Minh
+2025-11-16 17:32:20 | INFO     | agents.coordinator.orchestrator:plan_trip | ============================================================
+2025-11-16 17:32:20 | INFO     | agents.coordinator.orchestrator:plan_trip | 
+📍 STEP 1: Querying Weather Agent...
+2025-11-16 17:32:22 | INFO     | agents.coordinator.orchestrator:plan_trip |    ✅ Weather: <coroutine object WeatherAgent.handle_message at 0x00000253F623EC20>
+2025-11-16 17:32:22 | INFO     | agents.coordinator.orchestrator:plan_trip | 
+📍 STEP 2: Querying Planning Agent...
+2025-11-16 17:32:24 | INFO     | agents.coordinator.orchestrator:plan_trip |    ✅ Activities: 0 suggestions
+2025-11-16 17:32:24 | INFO     | agents.coordinator.orchestrator:plan_trip | 
+✅ Trip planning completed successfully!
+2025-11-16 17:32:24 | INFO     | __main__:main | 
+============================================================
+2025-11-16 17:32:24 | INFO     | __main__:main | ✅ ALL TRIPS PLANNED
+2025-11-16 17:32:24 | INFO     | __main__:main | ============================================================
+2025-11-16 17:36:06 | INFO     | __main__:main | ============================================================
+2025-11-16 17:36:06 | INFO     | __main__:main | 🎯 TRAVEL COORDINATOR STARTING
+2025-11-16 17:36:06 | INFO     | __main__:main | ============================================================
+2025-11-16 17:36:10 | INFO     | agents.coordinator.orchestrator:__init__ | ✅ Orchestrator initialized
+2025-11-16 17:36:10 | INFO     | agents.coordinator.orchestrator:__init__ |    Weather Agent: http://localhost:5001
+2025-11-16 17:36:10 | INFO     | agents.coordinator.orchestrator:__init__ |    Planning Agent: http://localhost:5002
+2025-11-16 17:36:10 | INFO     | __main__:main | 
+📋 Planning trips for: Da Nang, Hanoi, Ho Chi Minh
+2025-11-16 17:36:10 | INFO     | agents.coordinator.orchestrator:plan_trip | ============================================================
+2025-11-16 17:36:10 | INFO     | agents.coordinator.orchestrator:plan_trip | 🚀 Starting trip planning for: Da Nang
+2025-11-16 17:36:10 | INFO     | agents.coordinator.orchestrator:plan_trip | ============================================================
+2025-11-16 17:36:10 | INFO     | agents.coordinator.orchestrator:plan_trip | 
+📍 STEP 1: Querying Weather Agent...
+2025-11-16 17:36:20 | ERROR    | agents.coordinator.orchestrator:_get_weather | Failed to get weather after retries: 'ErrorContent' object has no attribute 'text'
+2025-11-16 17:36:20 | ERROR    | agents.coordinator.orchestrator:plan_trip | ❌ Error in orchestration: 'ErrorContent' object has no attribute 'text'
+2025-11-16 17:36:20 | INFO     | __main__:main | 
+────────────────────────────────────────────────────────────
+
+2025-11-16 17:36:22 | INFO     | agents.coordinator.orchestrator:plan_trip | ============================================================
+2025-11-16 17:36:22 | INFO     | agents.coordinator.orchestrator:plan_trip | 🚀 Starting trip planning for: Hanoi
+2025-11-16 17:36:22 | INFO     | agents.coordinator.orchestrator:plan_trip | ============================================================
+2025-11-16 17:36:22 | INFO     | agents.coordinator.orchestrator:plan_trip | 
+📍 STEP 1: Querying Weather Agent...
+2025-11-16 17:36:31 | ERROR    | agents.coordinator.orchestrator:_get_weather | Failed to get weather after retries: 'ErrorContent' object has no attribute 'text'
+2025-11-16 17:36:31 | ERROR    | agents.coordinator.orchestrator:plan_trip | ❌ Error in orchestration: 'ErrorContent' object has no attribute 'text'
+2025-11-16 17:36:31 | INFO     | __main__:main | 
+────────────────────────────────────────────────────────────
+
+2025-11-16 17:36:33 | INFO     | agents.coordinator.orchestrator:plan_trip | ============================================================
+2025-11-16 17:36:33 | INFO     | agents.coordinator.orchestrator:plan_trip | 🚀 Starting trip planning for: Ho Chi Minh
+2025-11-16 17:36:33 | INFO     | agents.coordinator.orchestrator:plan_trip | ============================================================
+2025-11-16 17:36:33 | INFO     | agents.coordinator.orchestrator:plan_trip | 
+📍 STEP 1: Querying Weather Agent...
+2025-11-16 17:36:42 | ERROR    | agents.coordinator.orchestrator:_get_weather | Failed to get weather after retries: 'ErrorContent' object has no attribute 'text'
+2025-11-16 17:36:42 | ERROR    | agents.coordinator.orchestrator:plan_trip | ❌ Error in orchestration: 'ErrorContent' object has no attribute 'text'
+2025-11-16 17:36:42 | INFO     | __main__:main | 
+============================================================
+2025-11-16 17:36:42 | INFO     | __main__:main | ✅ ALL TRIPS PLANNED
+2025-11-16 17:36:42 | INFO     | __main__:main | ============================================================
+2025-11-16 17:41:05 | INFO     | __main__:main | ============================================================
+2025-11-16 17:41:05 | INFO     | __main__:main | 🎯 TRAVEL COORDINATOR STARTING
+2025-11-16 17:41:05 | INFO     | __main__:main | ============================================================
+2025-11-16 17:41:09 | INFO     | agents.coordinator.orchestrator:__init__ | ✅ Orchestrator initialized
+2025-11-16 17:41:09 | INFO     | agents.coordinator.orchestrator:__init__ |    Weather Agent: http://localhost:5001
+2025-11-16 17:41:09 | INFO     | agents.coordinator.orchestrator:__init__ |    Planning Agent: http://localhost:5002
+2025-11-16 17:41:09 | INFO     | __main__:main | 
+📋 Planning trips for: Da Nang, Hanoi, Ho Chi Minh
+2025-11-16 17:41:09 | INFO     | agents.coordinator.orchestrator:plan_trip | ============================================================
+2025-11-16 17:41:09 | INFO     | agents.coordinator.orchestrator:plan_trip | 🚀 Starting trip planning for: Da Nang
+2025-11-16 17:41:09 | INFO     | agents.coordinator.orchestrator:plan_trip | ============================================================
+2025-11-16 17:41:09 | INFO     | agents.coordinator.orchestrator:plan_trip | 
+📍 STEP 1: Querying Weather Agent...
+2025-11-16 17:41:11 | INFO     | agents.coordinator.orchestrator:plan_trip |    ✅ Weather: {'text': 'Weather in Da Nang:\n🌡️ Temperature: 28°C\n☁️ Condition: Sunny\n💧 Humidity: 75%', 'role': 'agent', 'metadata': {'location': 'Da Nang', 'temperature': '28°C', 'condition': 'Sunny', 'humidity': '75%', 'summary': 'Sunny, 28°C'}}
+2025-11-16 17:41:11 | INFO     | agents.coordinator.orchestrator:plan_trip | 
+📍 STEP 2: Querying Planning Agent...
+2025-11-16 17:41:21 | INFO     | agents.coordinator.orchestrator:plan_trip |    ✅ Activities: 1 suggestions
+2025-11-16 17:41:21 | INFO     | agents.coordinator.orchestrator:plan_trip | 
+✅ Trip planning completed successfully!
+2025-11-16 17:41:21 | INFO     | __main__:main | 
+────────────────────────────────────────────────────────────
+
+2025-11-16 17:41:23 | INFO     | agents.coordinator.orchestrator:plan_trip | ============================================================
+2025-11-16 17:41:23 | INFO     | agents.coordinator.orchestrator:plan_trip | 🚀 Starting trip planning for: Hanoi
+2025-11-16 17:41:23 | INFO     | agents.coordinator.orchestrator:plan_trip | ============================================================
+2025-11-16 17:41:23 | INFO     | agents.coordinator.orchestrator:plan_trip | 
+📍 STEP 1: Querying Weather Agent...
+2025-11-16 17:41:25 | INFO     | agents.coordinator.orchestrator:plan_trip |    ✅ Weather: {'text': 'Weather in Hanoi:\n🌡️ Temperature: 22°C\n☁️ Condition: Cloudy\n💧 Humidity: 80%', 'role': 'agent', 'metadata': {'location': 'Hanoi', 'temperature': '22°C', 'condition': 'Cloudy', 'humidity': '80%', 'summary': 'Cloudy, 22°C'}}
+2025-11-16 17:41:25 | INFO     | agents.coordinator.orchestrator:plan_trip | 
+📍 STEP 2: Querying Planning Agent...
+2025-11-16 17:41:33 | INFO     | agents.coordinator.orchestrator:plan_trip |    ✅ Activities: 1 suggestions
+2025-11-16 17:41:33 | INFO     | agents.coordinator.orchestrator:plan_trip | 
+✅ Trip planning completed successfully!
+2025-11-16 17:41:33 | INFO     | __main__:main | 
+────────────────────────────────────────────────────────────
+
+2025-11-16 17:41:35 | INFO     | agents.coordinator.orchestrator:plan_trip | ============================================================
+2025-11-16 17:41:35 | INFO     | agents.coordinator.orchestrator:plan_trip | 🚀 Starting trip planning for: Ho Chi Minh
+2025-11-16 17:41:35 | INFO     | agents.coordinator.orchestrator:plan_trip | ============================================================
+2025-11-16 17:41:35 | INFO     | agents.coordinator.orchestrator:plan_trip | 
+📍 STEP 1: Querying Weather Agent...
+2025-11-16 17:41:37 | INFO     | agents.coordinator.orchestrator:plan_trip |    ✅ Weather: {'text': 'Weather in Ho Chi Minh:\n🌡️ Temperature: 30°C\n☁️ Condition: Rainy\n💧 Humidity: 85%', 'role': 'agent', 'metadata': {'location': 'Ho Chi Minh', 'temperature': '30°C', 'condition': 'Rainy', 'humidity': '85%', 'summary': 'Rainy, 30°C'}}
+2025-11-16 17:41:37 | INFO     | agents.coordinator.orchestrator:plan_trip | 
+📍 STEP 2: Querying Planning Agent...
+2025-11-16 17:41:45 | INFO     | agents.coordinator.orchestrator:plan_trip |    ✅ Activities: 1 suggestions
+2025-11-16 17:41:45 | INFO     | agents.coordinator.orchestrator:plan_trip | 
+✅ Trip planning completed successfully!
+2025-11-16 17:41:45 | INFO     | __main__:main | 
+============================================================
+2025-11-16 17:41:45 | INFO     | __main__:main | ✅ ALL TRIPS PLANNED
+2025-11-16 17:41:45 | INFO     | __main__:main | ============================================================

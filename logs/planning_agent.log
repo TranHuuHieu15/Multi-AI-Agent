@@ -1,0 +1,25 @@
+2025-11-16 17:28:30 | INFO     | agents.planning.gemini_client:__init__ | ✅ Gemini client initialized with model: gemini-2.5-flash
+2025-11-16 17:29:15 | INFO     | agents.planning.gemini_client:__init__ | ✅ Gemini client initialized with model: gemini-2.5-flash
+2025-11-16 17:29:15 | INFO     | agents.planning.gemini_client:__init__ | ✅ Gemini client initialized with model: gemini-2.5-flash
+2025-11-16 17:29:15 | INFO     | __main__:<module> | ============================================================
+2025-11-16 17:29:15 | INFO     | __main__:<module> | 🗺️  PLANNING AGENT STARTING (with Gemini)
+2025-11-16 17:29:15 | INFO     | __main__:<module> | 📡 URL: http://localhost:5002
+2025-11-16 17:29:15 | INFO     | __main__:<module> | 🔌 Port: 5002
+2025-11-16 17:29:15 | INFO     | __main__:<module> | 🤖 Model: gemini-2.5-flash
+2025-11-16 17:29:15 | INFO     | __main__:<module> | ============================================================
+2025-11-16 17:35:37 | INFO     | agents.planning.gemini_client:__init__ | ✅ Gemini client initialized with model: gemini-2.5-flash
+2025-11-16 17:35:37 | INFO     | agents.planning.gemini_client:__init__ | ✅ Gemini client initialized with model: gemini-2.5-flash
+2025-11-16 17:35:37 | INFO     | __main__:<module> | ============================================================
+2025-11-16 17:35:37 | INFO     | __main__:<module> | 🗺️  PLANNING AGENT STARTING (with Gemini)
+2025-11-16 17:35:37 | INFO     | __main__:<module> | 📡 URL: http://localhost:5002
+2025-11-16 17:35:37 | INFO     | __main__:<module> | 🔌 Port: 5002
+2025-11-16 17:35:37 | INFO     | __main__:<module> | 🤖 Model: gemini-2.5-flash
+2025-11-16 17:35:37 | INFO     | __main__:<module> | ============================================================
+2025-11-16 17:41:02 | INFO     | agents.planning.gemini_client:__init__ | ✅ Gemini client initialized with model: gemini-2.5-flash
+2025-11-16 17:41:02 | INFO     | agents.planning.gemini_client:__init__ | ✅ Gemini client initialized with model: gemini-2.5-flash
+2025-11-16 17:41:02 | INFO     | __main__:<module> | ============================================================
+2025-11-16 17:41:02 | INFO     | __main__:<module> | 🗺️  PLANNING AGENT STARTING (with Gemini)
+2025-11-16 17:41:02 | INFO     | __main__:<module> | 📡 URL: http://localhost:5002
+2025-11-16 17:41:02 | INFO     | __main__:<module> | 🔌 Port: 5002
+2025-11-16 17:41:02 | INFO     | __main__:<module> | 🤖 Model: gemini-2.5-flash
+2025-11-16 17:41:02 | INFO     | __main__:<module> | ============================================================
